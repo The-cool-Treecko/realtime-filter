@@ -1,0 +1,20 @@
+body {
+    background-image: url("background.jpg");
+    overflow-x: hidden;
+    text-align: center;
+}
+
+@keyframes boxshadow {
+    from {box-shadow: 1px 1px 30px red;}
+    to {box-shadow: 1px 1px 30px yellow;}
+}
+
+canvas {
+    animation-name: boxshadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#snapshot:hover {
+    background-color: red;
+}
